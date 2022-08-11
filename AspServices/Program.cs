@@ -1,4 +1,4 @@
-using GrpcServices.Services;
+using AspServices.Services;
 using ProtoBuf.Grpc.Server;
 
 var builder = WebApplication.CreateBuilder(args);

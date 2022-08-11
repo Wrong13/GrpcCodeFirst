@@ -1,9 +1,9 @@
-using Grpc.Core;
+using AspServices;
 using GrpcMidle;
-using GrpcServices;
+using Grpc.Core;
 using ProtoBuf.Grpc;
 
-namespace GrpcServices.Services
+namespace AspServices.Services
 {
     public class GreeterService : Class1.IGreeterService
     {
